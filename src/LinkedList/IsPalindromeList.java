@@ -10,23 +10,6 @@ import java.util.Stack;
  */
 public class IsPalindromeList {
 
-	public static class Node {
-		public int value;
-		public Node next;
-
-		public Node(int v) {
-			value = v;
-		}
-
-		@Override
-		public String toString() {
-			return "Node{" +
-					"value=" + value +
-					", next=" + next +
-					'}';
-		}
-	}
-
 	// 使用额外空间n
 	public static boolean isPalindromeUseContainer(Node node) {
 		Stack<Node> stack = new Stack<>();

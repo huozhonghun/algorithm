@@ -10,15 +10,6 @@ import java.util.ArrayList;
  */
 public class LinkedListMid {
 
-	public static class Node {
-		public int value;
-		public Node next;
-
-		public Node(int v) {
-			value = v;
-		}
-	}
-
 	/**
 	 * 输入链表头节点，奇数长度返回中点，偶数长度返回上中点
 	 */
