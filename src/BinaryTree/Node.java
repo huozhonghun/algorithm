@@ -12,4 +12,13 @@ public class Node {
 	public Node(int v) {
 		value = v;
 	}
+
+	@Override
+	public String toString() {
+		return "Node{" +
+				"value=" + value +
+				", left=" + left +
+				", right=" + right +
+				'}';
+	}
 }
